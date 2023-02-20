@@ -104,6 +104,8 @@ public class Game extends Application {
             System.out.println("Player 2 thắng cuộc!");
             stopGameLoop();
             }
+        }
+    }
 public class Player {
     private double x;
     private double y;
@@ -119,7 +121,6 @@ public class Player {
         this.speed = speed;
         this.color = color;
     }
-}
     public void draw(GraphicsContext gc) {
         gc.setFill(color);
         gc.fillRect(x, y, width, height);
