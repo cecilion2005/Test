@@ -119,7 +119,7 @@ public class Player {
         this.speed = speed;
         this.color = color;
     }
-
+}
     public void draw(GraphicsContext gc) {
         gc.setFill(color);
         gc.fillRect(x, y, width, height);
@@ -169,7 +169,6 @@ public class Player {
         return x < other.getX() + other.getWidth() && x + width > other.getX()
                 && y < other.getY() + other.getHeight() && y + height > other.getY();
     }
-}
 }
 public class AI {
     private double x;
