@@ -106,6 +106,7 @@ public class Game extends Application {
             }
         }
     }
+}
 public class Player {
     private double x;
     private double y;
