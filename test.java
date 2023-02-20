@@ -170,7 +170,7 @@ public class Player {
                 && y < other.getY() + other.getHeight() && y + height > other.getY();
     }
 }
-
+}
 public class AI {
     private double x;
     private double y;
@@ -345,7 +345,7 @@ public class FightingGame extends Application {
                     gameState = GameState.GAME_OVER;
                 }
             }
-        }
+       };
     }
 }
 
